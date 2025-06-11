@@ -1,0 +1,110 @@
+/* Réinitialiser les marges et le padding par défaut */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style de la bannière */
+.banner {
+    background-image: url('images/banner-chat.jpg'); /* Remplace par ton image */
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style du logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Style des liens de navigation */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Playwrite DK Loopet', cursive;
+    font-size: 18px;
+}
+
+/* Style du bouton */
+.nav-button a {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Style de la section à propos */
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.about-content {
+    flex: 1;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: -100px 0px;
+    border-radius: 200px 200px 0 0;
+}
+
+.about-title {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.about-name {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-link {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+}
